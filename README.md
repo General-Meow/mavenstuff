@@ -98,3 +98,5 @@
     </repository>
 </distributionManagement>
 ```
+
+- Important note: the pom version in your pom.xml could indicate which repo the artifact gets uploaded to. having a SNAPSHOT er will make the mvn plugin push to a snapshot repo, so make sure you have it enabled and in the distributionManagement part of the pom
